@@ -1,96 +1,118 @@
-<!-- Special profile repository: https://github.com/abubakar-maqsood/abubakar-maqsood -->
+<!-- Profile repo: https://github.com/abubakar-maqsood/abubakar-maqsood -->
 <div align="center">
-  <img src="assets/hero-wave.gif" width="100%" alt="Illustrated Muhammad Abubakar Maqsood waving hello while his name animates into view" />
-  <br />
-  <img src="assets/typing.svg" width="90%" alt="I build web experiences, useful software and explore trustworthy AI" />
-  <br /><br />
-  <a href="https://www.linkedin.com/in/abu-ba-kar/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://ayhanpk.com/"><img src="https://img.shields.io/badge/Portfolio-Ayhan_Co-117F75?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Ayhan Co" /></a>
-  <a href="https://github.com/abubakar-maqsood?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Explore_Code-182A42?style=for-the-badge&logo=github&logoColor=white" alt="Explore my GitHub repositories" /></a>
+  <img src="assets/profile-cover.svg" width="100%" alt="Muhammad Abubakar Maqsood — Software Developer, Frontend, Shopify and SEO, Applied AI and Research" />
+  <br/><br/>
+  <a href="https://www.linkedin.com/in/abu-ba-kar/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn profile" /></a>
+  <a href="https://ayhanpk.com/"><img src="https://img.shields.io/badge/Website-Ayhan_Co-117D77?style=flat-square&logo=googlechrome&logoColor=white" alt="Ayhan Co website" /></a>
+  <a href="https://github.com/abubakar-maqsood?tab=repositories"><img src="https://img.shields.io/badge/Repositories-Explore-263449?style=flat-square&logo=github&logoColor=white" alt="Public repositories" /></a>
 </div>
 
-### 👋 A little about me
+## About me
 
-I'm **Muhammad Abubakar Maqsood**, a software developer working across **web development, Shopify, and practical digital products**. I enjoy building clear interfaces, simplifying real workflows, and learning how AI systems can be evaluated more responsibly.
+<img align="right" src="assets/about-avatar-wave.gif" width="295" alt="Transparent illustration of Abubakar working on a laptop and waving hello" />
 
-- 🧩 **I build:** responsive websites, e-commerce experiences and software prototypes.
-- 🧠 **I'm exploring:** Python, machine learning, model evaluation and data reliability.
-- 💼 **Work:** web/e-commerce experience with Fusion Funky, alongside independent product experiments.
-- 🔭 **Current projects:** AquaSense AI, TailorDesk, AbroadNavi and ShelfAudit.
-- 🎓 **Education:** BS Information Technology, University of Agriculture Faisalabad, Sub-Campus Burewala (2025).
-- 🤝 **Interested in:** software engineering, practical AI, open-source collaboration and meaningful products.
+I'm **Muhammad Abubakar Maqsood**, a software developer focused on **frontend development, Shopify, and SEO**, with a growing interest in **applied AI and computer science research**. I like turning practical problems into thoughtful interfaces and usable digital products.
 
-### 🛠️ Tools I work with
+**What I build**  
+Responsive websites, e-commerce experiences, and software prototypes that simplify real workflows.
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,bootstrap,python,git,github,wordpress,firebase,mysql,vscode&perline=7" alt="HTML, CSS, JavaScript, React, Tailwind, Bootstrap, Python, Git, GitHub, WordPress, Firebase, MySQL, VS Code" />
+**Current projects**  
+Developing and refining software ideas while exploring research questions in artificial intelligence and computer science.
+
+**Current activities**  
+Participating in AI-focused hackathons and technical competitions, experimenting with new tools, and documenting what I learn.
+
+**Experience**  
+Web development and e-commerce work with **Fusion Funky**, alongside independent projects.
+
+**Education**  
+BS Information Technology, **University of Agriculture Faisalabad**, Sub-Campus Burewala (2025).
+
+**Interested in**  
+Software engineering, applied AI, open-source collaboration, and meaningful product development.
+
+<br clear="right" />
+
+## Tools and technologies
+
+### Core focus
+
+**Frontend:** HTML · CSS · JavaScript · Bootstrap · Tailwind CSS  
+**Commerce:** Shopify · Liquid · E-commerce workflows  
+**Web quality:** SEO · Responsive design · Performance · Accessibility  
+**Everyday tools:** Git · GitHub · VS Code · Debugging
+
+<div align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind,git,github,vscode&perline=8" alt="HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, Git, GitHub and VS Code" />
 </div>
 
-| Area | Technologies and practices |
+### Currently exploring
+
+These are **learning areas and technologies I'm experimenting with**, not claims of professional expertise.
+
+| Software and data | AI and development |
 |:--|:--|
-| **Web interfaces** | HTML, CSS, JavaScript, Bootstrap, Tailwind CSS; React *(learning)* |
-| **Commerce & CMS** | Shopify, Liquid, WordPress, Elementor, SEO fundamentals |
-| **Software & data** | Python *(learning)*, Firebase, MySQL, SQLite, Electron, REST APIs |
-| **Development workflow** | Git, GitHub, responsive UI, documentation, debugging |
+| Python, Firebase, MySQL, SQLite, Electron | Machine learning concepts, model evaluation, data reliability |
+| React (learning), TypeScript (project-based practice) | Prompt engineering, AI-assisted development, research exploration |
 
-### 🚀 Selected work
+## Selected projects
 
-> Some projects below are prototypes or private works in progress. I link to public source code only once it is ready for others to inspect.
+My projects include prototypes and work in progress. I only link to public source code when it is ready to inspect.
 
-| Project | Problem I'm working on | Stage |
+| Project | Problem and approach | Current stage |
 |:--|:--|:--|
-| **AquaSense AI** | Working with water-quality data, missing observations and responsible model evaluation. | Python / ML · Prototype |
-| **TailorDesk** | Tailoring order management, measurements, payment balances and delivery workflow. | Electron / TypeScript / SQLite · In development |
-| **AbroadNavi** | Bringing travel services and scholarship discovery into a clearer student-focused experience. | Web / UX · Prototype |
-| **ShelfAudit** | Exploring useful Shopify audit insights and store improvement workflows. | Shopify / SaaS · Early development |
+| **AquaSense AI** | Experimenting with water-quality data, missing observations, and evaluation of AI predictions. | Notebook prototype / learning |
+| **TailorDesk** | Desktop tool for tailor orders, measurements, payment balances, and delivery tracking. | In development |
+| **AbroadNavi** | A clearer web experience for travel services and scholarship discovery. | Web prototype |
+| **ShelfAudit** | Exploring Shopify audit insights and ways to turn store issues into actionable improvements. | Early-stage SaaS concept |
 
-#### Progress by milestone
+### Project milestones and next steps
 
 <div align="center">
-  <img src="assets/project-progress.svg" width="100%" alt="Animated progress graphic showing completed project checklist milestones" />
+  <img src="assets/project-dashboard.svg" width="100%" alt="Animated dashboard of manual project milestones, current stages and next objectives" />
 </div>
 
 <details>
-  <summary><b>How the progress tracker works</b></summary>
+<summary><b>How I maintain project progress</b></summary>
 
-  The bars represent **completed items out of listed milestones** in [`data/projects.json`](data/projects.json). Update a milestone to `"done": true` only when it is genuinely finished. An included GitHub Action regenerates this visual. These bars are **not** automatic GitHub statistics, percentage estimates of product completion, or skill ratings.
+This dashboard is built from [`data/projects.json`](data/projects.json). Each milestone has a `done` value and each project has a `next` objective. A GitHub Actions workflow can rebuild the SVG when the JSON changes. These are **manual checklists**; they do not measure GitHub commits, technical skill, hours worked, or percentage of product completion. Starter milestone states should be reviewed before publishing.
 </details>
 
-### 📚 What I'm focused on now
+## Currently focused on
 
 ```text
-01  Build real projects and document the engineering decisions
-02  Improve interface accessibility, performance and testing
-03  Learn Python and evaluate AI models with better evidence
-04  Share clearer repositories, demos and technical write-ups
+01  Building and documenting software projects with real use cases
+02  Improving frontend quality, Shopify workflows, and SEO fundamentals
+03  Exploring Python, machine learning evaluation, and AI reliability
+04  Participating in hackathons and technical challenges
+05  Publishing clearer demos, project READMEs, and engineering notes
 ```
 
-### 📈 GitHub activity
+## GitHub and public code
 
-My [contribution history](https://github.com/abubakar-maqsood?tab=overview) and [public repositories](https://github.com/abubakar-maqsood?tab=repositories) show what I'm actually publishing. I prefer real project links over decorative stat counters.
+My [public repositories](https://github.com/abubakar-maqsood?tab=repositories) and [contribution activity](https://github.com/abubakar-maqsood?tab=overview) reflect work I've actually published. I prefer readable source, demos, tests, and clear explanations over inflated statistic counters.
 
-<!-- OPTIONAL SNAKE SECTION: Activate only after the Snake workflow successfully creates the output branch.
-### 🐍 Contribution trail
-
+<!-- Optional contribution snake: uncomment the section below only AFTER the snake workflow has generated the output branch successfully.
+### Contribution trail
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abubakar-maqsood/abubakar-maqsood/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abubakar-maqsood/abubakar-maqsood/output/github-snake.svg" />
-    <img src="https://raw.githubusercontent.com/abubakar-maqsood/abubakar-maqsood/output/github-snake.svg" alt="Animated contribution snake" width="100%" />
+    <img src="https://raw.githubusercontent.com/abubakar-maqsood/abubakar-maqsood/output/github-snake.svg" width="100%" alt="Contribution activity animated as a snake" />
   </picture>
 </div>
-END OPTIONAL SNAKE SECTION -->
+-->
 
-### 🧭 A few milestones
+## Journey
 
-| Year | Milestone |
+| When | Milestone |
 |:--|:--|
-| **2025** | Graduated with a BS in Information Technology (UAF, Burewala Campus). |
-| **2025** | Completed web development internship experience, including Hywiz Technologies. |
-| **2025–now** | Worked across web/e-commerce projects, including Fusion Funky, while developing software and applied AI experiments. |
+| **2025** | BS Information Technology from UAF, Sub-Campus Burewala. |
+| **2025** | Web development internship experience, including Hywiz Technologies. |
+| **2025 – present** | Web and e-commerce work, independent software development, and applied AI exploration. |
 
 <div align="center">
-  <img src="assets/footer.svg" width="85%" alt="Build, test, learn, improve" />
+  <img src="assets/footer-line.svg" width="88%" alt="Build, Experiment, Learn, Improve" />
   <br />
-  <sub>Thanks for visiting. Explore my projects or connect on LinkedIn.</sub>
+  <sub>Thanks for visiting. Explore the code or connect with me on LinkedIn.</sub>
 </div>

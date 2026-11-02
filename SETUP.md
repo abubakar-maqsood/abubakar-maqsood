@@ -1,87 +1,56 @@
-# Installation: GitHub profile for `abubakar-maqsood`
+# GitHub profile installation — abubakar-maqsood
 
-This is a GitHub **profile README**, not a website or a separate portfolio application. GitHub shows the root `README.md` from a public repository named **exactly the same as your username**.
+Your profile repo already exists: https://github.com/abubakar-maqsood/abubakar-maqsood
 
-## Step 1 — Create or open the matching repository
+## Replace the current README and add the new assets
 
-1. Log in as `abubakar-maqsood`.
-2. Visit <https://github.com/new>.
-3. Create a **Public** repository named **`abubakar-maqsood`**, OR open <https://github.com/abubakar-maqsood/abubakar-maqsood> if it already exists.
-4. If you're creating it, leave **Add a README file** unchecked: this package already contains one.
+1. Extract the ZIP locally. **Do not upload the ZIP as a single file.**
+2. Open your profile repository. Upload `README.md` and the contents of `assets/`, `data/`, `scripts/`, and `.github/workflows/` to the **repository root**, keeping their paths.
+3. If files already exist, GitHub may prompt you to overwrite or replace files. You can also upload through GitHub Desktop/VS Code (more reliable for nested `.github` folders).
+4. Commit with: `refactor: refresh animated profile and project dashboard`.
+5. Open https://github.com/abubakar-maqsood and confirm the cover, illustrated laptop avatar, milestones and links render.
 
-## Step 2 — Upload the extracted files
+**Important:** This version replaces the large illustrated banner with a clean SVG header, and shows the transparent waving avatar only in the About section. Old `assets/hero-wave.gif` can be left in the repository (unused) or deleted later.
 
-**Extract the ZIP first.** Keep folders intact, and upload the contents to the repository root:
+## Edit project progress accurately
 
-```text
-README.md
-assets/hero-wave.gif
-assets/hero-preview.png
-assets/typing.svg
-assets/project-progress.svg
-assets/footer.svg
-data/projects.json
-scripts/render_progress.py
-.github/workflows/progress.yml
-.github/workflows/snake.yml
-PROFILE-SETTINGS.md
-SETUP.md
-PROJECT-README-TEMPLATE.md
-.gitignore
-```
+- Open `data/projects.json`.
+- Review the `done` state of *each* milestone and the project's `next` action. The file contains editable starter values, not independently verified completion.
+- For local regeneration run `python scripts/render_dashboard.py` (uses the Python standard library only).
+- If `.github/workflows/dashboard.yml` is present, pushing changes to the JSON or script triggers an automatic rebuild and commit.
+- If GitHub Actions cannot push, verify **Settings → Actions → General → Workflow permissions** and grant write permission if permitted; the workflow itself asks only for `contents: write`.
 
-The GitHub website uploader may not preserve hidden folders consistently. If `.github/workflows` is missing, add those workflow files through Git or create the paths directly on GitHub.
+## Optional contribution snake
 
-### Reliable Git CLI method
+- Upload `.github/workflows/snake.yml`.
+- In your repository open **Actions → Generate contribution snake → Run workflow**.
+- Wait for a successful run and check that the `output` branch contains `github-snake.svg` and `github-snake-dark.svg`.
+- In `README.md`, remove the HTML comment markers around the optional Contribution trail section and commit.
+- If activity is sparse, that is okay; the graph reflects published contributions. No mock activity is created.
 
-In a terminal, create the repository first on GitHub, then:
+## Profile sidebar details
 
-```bash
-git clone https://github.com/abubakar-maqsood/abubakar-maqsood.git
-cd abubakar-maqsood
-# Copy the EXTRACTED contents of this package into this folder.
-git add .
-git commit -m "Add animated professional profile"
-git push origin main
-```
+Name: Muhammad Abubakar Maqsood
 
-If a README already exists in that repository, replace or merge it instead of adding a second README.
+Bio (paste into Settings → Public profile):
+`Software Developer | Frontend, Shopify & SEO | Applied AI & Research`
 
-## Step 3 — Check your profile
+Website: https://ayhanpk.com/
 
-Open <https://github.com/abubakar-maqsood>. You should see the animated portrait/name, rotating tagline, skills, project summaries and an SVG progress tracker immediately. None of those initial visuals need GitHub Actions.
+LinkedIn: https://www.linkedin.com/in/abu-ba-kar/ (confirm that this is your current public URL)
 
-## Step 4 — Edit real project milestones
+Location: use your real current location, not an old city if you have moved.
 
-`data/projects.json` contains **starter checkboxes** informed by your described work, not verified production checklists. **Review every item before publishing.** Only mark a milestone `"done": true` when completed.
+Timezone: Pakistan Standard Time UTC+05:00, if you want the displayed clock to match Pakistan.
 
-Regenerate locally (Python 3.9+, no packages required):
+## Learning vs work experience
 
-```bash
-python scripts/render_progress.py
-```
+- WordPress and Elementor are deliberately **not listed**.
+- Python, Firebase, MySQL, SQLite, Electron, React and ML appear in **Currently exploring**, not the professional toolset.
+- Prompt engineering is listed as a familiar practice within AI-assisted development.
+- Hackathons are described as participation/interest; no prizes, formal publications, or unverified credentials are claimed.
+- Project status and milestones are editorial, user-maintained information.
 
-On GitHub, the `Render project milestones` workflow can refresh the SVG when `data/projects.json` is committed to `main`. If it can't push, check **Settings → Actions → General → Workflow permissions** and enable read/write for GitHub Actions if your policies permit it. You can also generate and commit the image locally, with no Actions at all.
+## GitHub rendering limits
 
-## Step 5 — Optional contribution snake
-
-1. Go to your profile repository → **Actions → Generate contribution snake → Run workflow**.
-2. Wait for a successful run and confirm an **output** branch containing `github-snake.svg` and `github-snake-dark.svg`.
-3. In `README.md`, remove the two HTML comment markers surrounding **OPTIONAL SNAKE SECTION** (not the content in between).
-4. Commit. The snake updates on a daily schedule via GitHub Actions.
-
-**Keep this section commented until the first successful workflow run** so visitors don't see broken images.
-
-## Step 6 — Update your public settings
-
-Open <https://github.com/settings/profile> and follow `PROFILE-SETTINGS.md`. Check especially the incorrect GMT−12 timezone in the screenshot; Pakistan is UTC+05:00.
-
-## Step 7 — Pin useful repositories
-
-Pin only repositories that actually exist and are understandable to a stranger. For each flagship project: `README`, clear problem, screenshots, tech stack, setup, sample output, limitations and attribution. A private or not-yet-published idea can stay in the profile's featured-work table without a dead GitHub URL.
-
-## Technical limitations
-
-GitHub README content does **not** support arbitrary JavaScript or actual interactive UI. Your portrait is a looping GIF; the name reveal and greeting accents animate. The milestone bars are SVG animations from a local JSON checklist and don't automatically know your coding progress. The contribution snake needs the optional workflow. External badges/skill icons can temporarily fail if their hosting services are unavailable.
-
-**Accessibility:** the banner and SVGs have informative alt text. Some motion can be repetitive; keep your original profile photo visible as a static alternative and avoid flashing effects.
+GitHub profile READMEs cannot run arbitrary JavaScript or a live application. The cover and tracker use SVG, and the illustrated greeting uses an animated GIF. Images can appear static for viewers who disable animation. The Github Actions workflow refreshes the tracker **when you edit checklists**; it cannot detect task completion automatically.
