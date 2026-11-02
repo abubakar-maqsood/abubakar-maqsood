@@ -1,0 +1,21 @@
+REPLACE EXISTING GITHUB PROFILE — SAME REPOSITORY
+
+Repository: https://github.com/abubakar-maqsood/abubakar-maqsood
+
+1. Extract the ZIP. Do not upload the ZIP itself.
+2. Open the repo in GitHub Desktop (recommended) or clone it locally.
+3. Copy ALL extracted contents into the local repository folder,
+   confirming "Replace" for duplicate files. Preserve hidden .github/workflows.
+4. Commit changes, then Push origin.
+5. Refresh https://github.com/abubakar-maqsood
+
+The same original Bitmoji is now animated: hand waves, while the face, outfit
+and laptop remain the same. It appears beside "About me", not in the cover.
+The name cover continues to type and project bars still animate from zero.
+
+Only updating the Bitmoji? Replace assets/about-avatar-wave.gif alone.
+For that one-file update using the GitHub web interface, you can delete the old
+GIF then upload the new GIF at the same path and commit the change.
+
+Milestone status comes from manually maintained data/projects.json,
+not automatic detection of actual project completion.
