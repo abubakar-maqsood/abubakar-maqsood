@@ -1,59 +1,49 @@
-# GitHub profile: full animated version
+# Installation: complete animated GitHub profile
 
-**Repository:** `abubakar-maqsood/abubakar-maqsood` (public)
+This ZIP is for the **existing** profile repository:
 
-## Replace your existing files
+https://github.com/abubakar-maqsood/abubakar-maqsood
 
-1. Extract the ZIP to your computer. **Do not upload the ZIP itself.**
-2. Open your existing profile repository on GitHub.
-3. Upload the contents of this extracted folder **at repository root**, preserving `README.md`, `assets/`, `data/`, `scripts/`, and `.github/workflows/`.
-4. Use GitHub Desktop (recommended): clone the existing repository, copy the extracted files into the cloned folder and confirm replacement, then Commit to main and Push origin. This includes the hidden `.github` folder.
-5. Commit with `Refresh animated GitHub profile` and reload `https://github.com/abubakar-maqsood`.
+## Final layout
 
-**IMPORTANT:** GitHub's web uploader is not a reliable bulk-replacement tool for files that already exist. GitHub Desktop is recommended. Do not delete your repository or create a new one. Preserve the exact paths. Old, unused assets such as `assets/hero-wave.gif` can be deleted later, but are harmless if left in place.
+1. Latest approved cream/charcoal/gold cover, with handwritten signature and end star, **Vibe Coding** and AI/ML research interest labels. The cover itself is a compressed, static WebP image.
+2. Profile links: LinkedIn, website and repositories.
+3. Small, centered, transparent Bitmoji behind a laptop (static).
+4. Four research/graduate-study headlines that type, erase and repeat (animated GIF).
+5. Research-first introduction with academic background and a careful description of learning goals.
+6. Two equal, centered rows of technology icons; learning technologies clearly labeled.
+7. Completed public/practice project cards (no made-up live demos).
+8. Current projects and animated milestone bars, which grow from zero to manually recorded positions.
+9. Graduate-study goals, current activities and collaboration.
 
-## Animations included
+## Replace in your current repository
 
-- `assets/name-cover-typing.gif`: real animated typing of your full name. No character in the cover.
-- `assets/about-avatar-wave.gif`: the **exact uploaded illustrated character** with a gently waving raised hand and laptop in front; the face, suit, and laptop are stationary.
-- `assets/about-avatar-transparent.png`: the original source image used to make that animation.
-- `assets/project-dashboard-grow.gif`: each milestone bar starts at zero and fills to the checklist fraction; it loops.
-- `assets/footer-line.svg`: subtle footer pulse (browser SVG support varies).
-- `assets/project-dashboard.svg`: SVG alternative with animated width change where SVG animation is supported.
-- `assets/name-cover-still.png` and `assets/project-dashboard-still.png`: static poster frames.
+1. Download and extract the ZIP on your computer.
+2. In GitHub Desktop, clone/open `abubakar-maqsood/abubakar-maqsood`.
+3. Copy the **contents** of the extracted folder (not the outer folder itself) into the repository root, replacing existing files.
+4. Check that `README.md` and `assets/` are at the repository root and `.github/workflows/` is present.
+5. Commit the update and click **Push origin**.
+6. Open https://github.com/abubakar-maqsood and refresh.
 
-All main animations are GIFs for consistent display in GitHub's README. Markdown doesn't allow custom JavaScript. GIFs loop whenever they are viewed; they don't update milestone data by themselves.
+The web uploader can have trouble replacing many existing files and hidden `.github` folders. GitHub Desktop is recommended. Do **not** upload the ZIP itself to GitHub.
 
-## Updating project progress
+## Customize project milestones
 
-Edit `data/projects.json`. Set milestone `done` to `true` only after it is actually complete, and update `phase` and `next` as necessary. **Do not treat demo milestones as verified without checking**. The tracker reports your manually edited milestones, not actual percent of code or task completion.
-
-When GitHub Actions workflow `Refresh animated project tracker` is enabled, it runs after a commit to `data/projects.json`, regenerates `assets/project-dashboard-grow.gif`, `assets/project-dashboard.svg` and poster, then commits updated assets. The workflow also generates `assets/name-cover-typing.gif` (with the same name).
-
-Run locally (Python 3.10+):
-
-```bash
-python -m pip install Pillow
-python scripts/render_animations.py
-```
-
-**If the Action fails to push:** Repository Settings > Actions > General > Workflow permissions > Read and write permissions, where your repository policy allows it. Then run the workflow manually in the Actions tab.
-
-## Optional contribution snake
-
-Run the `Generate contribution snake` workflow once in Actions. After verifying the `output` branch contains the SVG images, remove the `<!-- ... -->` comment around the optional contribution-snake section in `README.md` and commit. The snake reflects genuine GitHub contribution history, not project milestones. This step is optional.
-
-## Appearance and accessibility
-
-Animated GIFs may not respect system Reduced Motion preferences. Prefer the two `*-still.png` alternatives in the README if you want to disable motion. The design intentionally keeps animations restrained, with legible contrast and no moving background behind About Me text.
-
-## Regenerate the exact Bitmoji hand-wave (optional)
-
-The included GIF is already finished; **you do not have to run this step**. To remake it using the supplied original illustration:
+Edit `data/projects.json` to reflect actual milestone states. The bundled counts are starter checklists, **not verified project completion percentages**. For local regeneration:
 
 ```bash
-python -m pip install Pillow numpy opencv-python
-python scripts/render_avatar_wave.py
+python -m pip install 'Pillow>=10,<13'
+python scripts/render_dashboard.py
 ```
 
-This affects only the Bitmoji GIF. The project progress workflow does not alter your avatar.
+The `.github/workflows/dashboard.yml` workflow can regenerate dashboard files after changes to the JSON, but GitHub Actions permissions and successful execution must be checked in your own repository.
+
+## Files and loading
+
+- `assets/top-cover-banner.webp`: latest approved cover, compressed for faster loading
+- `assets/center-bitmoji.webp`: small static transparent avatar
+- `assets/research-headlines-typing.gif`: looping text animation
+- `assets/project-dashboard-grow.gif`: growing milestone bar animation
+- `.github/workflows/`: dashboard update and optional snake workflows
+
+The banner and avatar are intentionally static to keep the profile lightweight; the rotating headlines and project tracker are genuinely animated.

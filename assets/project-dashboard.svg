@@ -4,40 +4,40 @@
 <circle cx="43" cy="40" r="6" fill="#16d6e7"/><text x="64" y="51" font-size="27" font-weight="700" fill="#f2f7ff" font-family="DejaVu Sans,Arial,sans-serif">PROJECT MILESTONES</text>
 <text x="64" y="79" font-size="16" fill="#b4c9dd" font-family="Arial,sans-serif">Current stage / Checklist progress / Next step</text>
 <rect x="26" y="104" width="1068" height="140" rx="18" fill="#132b41" stroke="#284a5e"/>
-<rect x="43" y="123" width="6" height="33" rx="3" fill="#45d9c5"/>
+<rect x="43" y="123" width="6" height="33" rx="3" fill="#D7A45F"/>
 <text x="65" y="145" font-family="Arial,sans-serif" font-weight="700" font-size="23" fill="#f2f7ff">AquaSense AI</text>
 <text x="65" y="175" font-family="Arial,sans-serif" font-size="16" fill="#b4c9dd">Prototype / experimentation</text>
 <text x="65" y="209" font-family="Arial,sans-serif" font-size="15" fill="#d7e5f2">Next: Document evaluation results and publish a reproducible demo</text>
 <rect x="711" y="133" width="272" height="17" rx="8" fill="#2d455b"/>
-<rect x="711" y="133" width="0" height="17" rx="8" fill="#45d9c5"><animate attributeName="width" from="0" to="109" begin="0.2s" dur="1.65s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1"/></rect>
+<rect x="711" y="133" width="0" height="17" rx="8" fill="#D7A45F"><animate attributeName="width" from="0" to="109" begin="0.2s" dur="1.65s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1"/></rect>
 <text x="1009" y="147" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#f2f7ff">2/5</text>
 <text x="711" y="187" font-family="Arial,sans-serif" font-size="15" fill="#94aec4">Milestones checked</text>
 <rect x="26" y="259" width="1068" height="140" rx="18" fill="#132b41" stroke="#284a5e"/>
-<rect x="43" y="278" width="6" height="33" rx="3" fill="#80b7ff"/>
+<rect x="43" y="278" width="6" height="33" rx="3" fill="#97ACD2"/>
 <text x="65" y="300" font-family="Arial,sans-serif" font-weight="700" font-size="23" fill="#f2f7ff">TailorDesk</text>
 <text x="65" y="330" font-family="Arial,sans-serif" font-size="16" fill="#b4c9dd">Desktop application · in development</text>
 <text x="65" y="364" font-family="Arial,sans-serif" font-size="15" fill="#d7e5f2">Next: Validate measurement history, payments and desktop packaging</text>
 <rect x="711" y="288" width="272" height="17" rx="8" fill="#2d455b"/>
-<rect x="711" y="288" width="0" height="17" rx="8" fill="#80b7ff"><animate attributeName="width" from="0" to="109" begin="0.4s" dur="1.65s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1"/></rect>
+<rect x="711" y="288" width="0" height="17" rx="8" fill="#97ACD2"><animate attributeName="width" from="0" to="109" begin="0.4s" dur="1.65s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1"/></rect>
 <text x="1009" y="302" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#f2f7ff">2/5</text>
 <text x="711" y="342" font-family="Arial,sans-serif" font-size="15" fill="#94aec4">Milestones checked</text>
 <rect x="26" y="414" width="1068" height="140" rx="18" fill="#132b41" stroke="#284a5e"/>
-<rect x="43" y="433" width="6" height="33" rx="3" fill="#c2a3ff"/>
+<rect x="43" y="433" width="6" height="33" rx="3" fill="#AFA0C2"/>
 <text x="65" y="455" font-family="Arial,sans-serif" font-weight="700" font-size="23" fill="#f2f7ff">AbroadNavi</text>
 <text x="65" y="485" font-family="Arial,sans-serif" font-size="16" fill="#b4c9dd">Travel and scholarship web prototype</text>
 <text x="65" y="519" font-family="Arial,sans-serif" font-size="15" fill="#d7e5f2">Next: Finish travel-service search and scholarship update logic</text>
 <rect x="711" y="443" width="272" height="17" rx="8" fill="#2d455b"/>
-<rect x="711" y="443" width="0" height="17" rx="8" fill="#c2a3ff"><animate attributeName="width" from="0" to="136" begin="0.6000000000000001s" dur="1.65s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1"/></rect>
+<rect x="711" y="443" width="0" height="17" rx="8" fill="#AFA0C2"><animate attributeName="width" from="0" to="136" begin="0.6000000000000001s" dur="1.65s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1"/></rect>
 <text x="1009" y="457" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#f2f7ff">3/6</text>
 <text x="711" y="497" font-family="Arial,sans-serif" font-size="15" fill="#94aec4">Milestones checked</text>
 <rect x="26" y="569" width="1068" height="140" rx="18" fill="#132b41" stroke="#284a5e"/>
-<rect x="43" y="588" width="6" height="33" rx="3" fill="#f1bd70"/>
+<rect x="43" y="588" width="6" height="33" rx="3" fill="#CBB783"/>
 <text x="65" y="610" font-family="Arial,sans-serif" font-weight="700" font-size="23" fill="#f2f7ff">ShelfAudit</text>
 <text x="65" y="640" font-family="Arial,sans-serif" font-size="16" fill="#b4c9dd">Shopify SaaS · early-stage concept</text>
 <text x="65" y="674" font-family="Arial,sans-serif" font-size="15" fill="#d7e5f2">Next: Validate Shopify integration and the value of audit</text>
 <text x="65" y="692" font-family="Arial,sans-serif" font-size="15" fill="#d7e5f2">recommendations</text>
 <rect x="711" y="598" width="272" height="17" rx="8" fill="#2d455b"/>
-<rect x="711" y="598" width="0" height="17" rx="8" fill="#f1bd70"><animate attributeName="width" from="0" to="109" begin="0.8s" dur="1.65s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1"/></rect>
+<rect x="711" y="598" width="0" height="17" rx="8" fill="#CBB783"><animate attributeName="width" from="0" to="109" begin="0.8s" dur="1.65s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1"/></rect>
 <text x="1009" y="612" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#f2f7ff">2/5</text>
 <text x="711" y="652" font-family="Arial,sans-serif" font-size="15" fill="#94aec4">Milestones checked</text>
 <text x="34" y="763" font-family="Arial,sans-serif" font-size="14" fill="#94aec4">Manual milestones / Not an automatic project completion or skill score</text>

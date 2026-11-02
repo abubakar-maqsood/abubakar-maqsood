@@ -18,16 +18,16 @@ ASSETS = BASE / 'assets'
 ASSETS.mkdir(exist_ok=True)
 PROJECTS = json.loads((BASE/'data/projects.json').read_text(encoding='utf-8'))['projects']
 
-NAVY = (7, 19, 34)
-NAVY2 = (12, 32, 52)
-NAVY3 = (19, 43, 65)
-CYAN = (22, 214, 231)
-CYAN_BRIGHT = (34, 238, 248)
-BLUE = (115, 165, 248)
+NAVY = (24, 25, 29)
+NAVY2 = (32, 33, 36)
+NAVY3 = (42, 43, 47)
+CYAN = (216, 166, 89)
+CYAN_BRIGHT = (231, 190, 121)
+BLUE = (139, 160, 202)
 WHITE = (242, 247, 255)
 SUB = (180, 201, 221)
 MUTED = (140, 170, 194)
-TRACK = (45, 69, 91)
+TRACK = (66, 65, 67)
 F = {
     'bold': ['/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', '/usr/share/fonts/truetype/liberation2/LiberationSans-Bold.ttf', 'DejaVuSans-Bold.ttf'],
     'regular': ['/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', '/usr/share/fonts/truetype/liberation2/LiberationSans-Regular.ttf','DejaVuSans.ttf'],
@@ -60,9 +60,9 @@ def bg(w,h):
             t=.3*x/w+.28*y/h
             p[x,y]=(int(NAVY[0]*(1-t)+NAVY2[0]*t),int(NAVY[1]*(1-t)+NAVY2[1]*t),int(NAVY[2]*(1-t)+NAVY2[2]*t))
     d=ImageDraw.Draw(im)
-    # restrained circuit/grid lines for depth
-    for x in range(40,w,48): d.line([(x,0),(x,h)], fill=(16,39,55),width=1)
-    for y in range(38,h,48):d.line([(0,y),(w,y)], fill=(16,39,55),width=1)
+    # restrained editorial grid for depth
+    for x in range(40,w,48): d.line([(x,0),(x,h)], fill=(35,36,40),width=1)
+    for y in range(38,h,48):d.line([(0,y),(w,y)], fill=(35,36,40),width=1)
     return im
 
 def export_gif(images,filename,durations):
@@ -83,8 +83,8 @@ def make_header():
     d.text((1035,111),'</>',font=font(39,'mono'),fill=CYAN)
     d.text((932,242),'BUILD  /  LEARN  /  SHARE',font=font(12,'mono'),fill=(119,159,182))
     d.line((40,244,862,244),fill=(42,80,96),width=2)
-    d.text((42,181),'Software Developer  /  Frontend, Shopify & SEO',font=font(22),fill=SUB)
-    d.text((42,213),'Applied AI & Research',font=font(19,'bold'),fill=CYAN_BRIGHT)
+    d.text((42,181),'AI Research Interests  /  Applied Machine Learning',font=font(22),fill=SUB)
+    d.text((42,213),'Software Developer  /  Frontend, Shopify & SEO',font=font(19,'bold'),fill=CYAN_BRIGHT)
     name='Muhammad Abubakar Maqsood'
     size=51
     f=font(size,'bold')
@@ -141,7 +141,7 @@ def draw_card(d,p,i,amount):
     elif c==(128,183,255):c=BLUE
     elif c==(194,163,255):c=(187,154,241)
     elif c==(241,189,112):c=(247,188,102)
-    corner(d,(26,y,1094,y+140),18,NAVY3,outline=(40,74,94),width=1)
+    corner(d,(26,y,1094,y+140),18,NAVY3,outline=(82,77,69),width=1)
     corner(d,(43,y+19,49,y+52),3,c)
     d.text((65,y+16),str(p.get('name','Untitled')),font=font(23,'bold'),fill=WHITE)
     d.text((65,y+53),str(p.get('phase','In progress')),font=font(16),fill=SUB)
@@ -212,5 +212,5 @@ def make_dashboard():
     (ASSETS/'project-dashboard.svg').write_text('\n'.join(svg),encoding='utf-8')
 
 if __name__=='__main__':
-    make_header();make_dashboard()
+    make_dashboard()
     print(f'Rendered animated header and {len(PROJECTS)} project rows')

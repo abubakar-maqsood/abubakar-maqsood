@@ -4,7 +4,7 @@
     {
       "name": "AquaSense AI",
       "phase": "Prototype / experimentation",
-      "accent": "#45d9c5",
+      "accent": "#D7A45F",
       "next": "Document evaluation results and publish a reproducible demo",
       "milestones": [
         {
@@ -32,7 +32,7 @@
     {
       "name": "TailorDesk",
       "phase": "Desktop application · in development",
-      "accent": "#80b7ff",
+      "accent": "#97ACD2",
       "next": "Validate measurement history, payments and desktop packaging",
       "milestones": [
         {
@@ -60,7 +60,7 @@
     {
       "name": "AbroadNavi",
       "phase": "Travel and scholarship web prototype",
-      "accent": "#c2a3ff",
+      "accent": "#AFA0C2",
       "next": "Finish travel-service search and scholarship update logic",
       "milestones": [
         {
@@ -92,7 +92,7 @@
     {
       "name": "ShelfAudit",
       "phase": "Shopify SaaS · early-stage concept",
-      "accent": "#f1bd70",
+      "accent": "#CBB783",
       "next": "Validate Shopify integration and the value of audit recommendations",
       "milestones": [
         {

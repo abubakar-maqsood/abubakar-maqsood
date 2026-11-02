@@ -1,16 +1,10 @@
-Replace your current profile repository files with this package.
+FULL GITHUB PROFILE REPLACEMENT
 
-Key layout updates:
-- Animated cover banner at the top
-- Animated Bitmoji centered under the cover
-- About section moved below the Bitmoji
-- Tools and technology icons split into two centered rows
-- New Completed Projects section with project-thumbnail cards
-- Ongoing Projects and animated tracker preserved
+Repository: https://github.com/abubakar-maqsood/abubakar-maqsood
 
-Replace these folders/files in the same repository:
-README.md
-assets/
-data/
-scripts/
-.github/
+Extract the ZIP. Copy its contents to the root of the EXISTING repository using GitHub Desktop, replace matching files, commit and push.
+
+Do not upload the ZIP file directly. Keep README.md at root.
+
+Top cover: latest approved signature + star, Vibe Coding, AI Research Interests, Applied Machine Learning.
+Animations: research headline typing/erasing and milestone bars growing. The cover and small centered avatar are static.
