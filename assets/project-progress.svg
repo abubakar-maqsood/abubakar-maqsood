@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="590" viewBox="0 0 1100 590" role="img" aria-labelledby="title desc">
+<title id="title">Project progress tracker</title>
+<desc id="desc">Self-reported completion of documented project milestones. These are checklist counts, not objective estimates of software completion.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b192a"/><stop offset="1" stop-color="#0e2937"/></linearGradient>
+  <style>
+  text { font-family: Arial, Helvetica, sans-serif; }
+  .name { font-size: 25px; font-weight: 700; fill: #f1fafc; }
+  .sub { font-size: 15px; fill: #a2bfca; }
+  .count { font-size: 18px; font-weight: 700; fill: #e7f8f9; }
+  </style>
+</defs>
+<rect width="1100" height="590" rx="22" fill="url(#bg)" stroke="#244b59" />
+<circle cx="52" cy="48" r="7" fill="#34d8c4"/>
+<text x="74" y="57" font-size="28" font-weight="700" fill="#f0fbfc">Project milestones</text>
+<text x="1040" y="55" font-size="16" text-anchor="end" fill="#9ebbc8">Updated from the checklist</text>
+<rect x="29" y="94" width="1042" height="94" rx="13" fill="#162e40" stroke="#234657"/>
+<rect x="44" y="115" width="5" height="52" rx="2" fill="#34d8c4"/>
+<text x="65" y="134" class="name">AquaSense AI</text>
+<text x="65" y="161" class="sub">Prototype / experimentation</text>
+<rect x="527" y="123" width="460" height="18" rx="9" fill="#2b4659"/>
+<rect x="527" y="123" width="230" height="18" rx="9" fill="#34d8c4"><animate attributeName="width" from="0" to="230" dur="1.3s" begin="0.0s" fill="freeze"/></rect>
+<text x="1042" y="137" class="count" text-anchor="end">3/6</text>
+<text x="527" y="166" class="sub">3 of 6 listed milestones marked complete</text>
+<rect x="29" y="204" width="1042" height="94" rx="13" fill="#162e40" stroke="#234657"/>
+<rect x="44" y="225" width="5" height="52" rx="2" fill="#79b6ff"/>
+<text x="65" y="244" class="name">TailorDesk</text>
+<text x="65" y="271" class="sub">Desktop application in development</text>
+<rect x="527" y="233" width="460" height="18" rx="9" fill="#2b4659"/>
+<rect x="527" y="233" width="184" height="18" rx="9" fill="#79b6ff"><animate attributeName="width" from="0" to="184" dur="1.3s" begin="0.13s" fill="freeze"/></rect>
+<text x="1042" y="247" class="count" text-anchor="end">2/5</text>
+<text x="527" y="276" class="sub">2 of 5 listed milestones marked complete</text>
+<rect x="29" y="314" width="1042" height="94" rx="13" fill="#162e40" stroke="#234657"/>
+<rect x="44" y="335" width="5" height="52" rx="2" fill="#d0a4ff"/>
+<text x="65" y="354" class="name">AbroadNavi</text>
+<text x="65" y="381" class="sub">Design / web prototype</text>
+<rect x="527" y="343" width="460" height="18" rx="9" fill="#2b4659"/>
+<rect x="527" y="343" width="230" height="18" rx="9" fill="#d0a4ff"><animate attributeName="width" from="0" to="230" dur="1.3s" begin="0.26s" fill="freeze"/></rect>
+<text x="1042" y="357" class="count" text-anchor="end">3/6</text>
+<text x="527" y="386" class="sub">3 of 6 listed milestones marked complete</text>
+<rect x="29" y="424" width="1042" height="94" rx="13" fill="#162e40" stroke="#234657"/>
+<rect x="44" y="445" width="5" height="52" rx="2" fill="#ffc778"/>
+<text x="65" y="464" class="name">ShelfAudit</text>
+<text x="65" y="491" class="sub">SaaS concept / early development</text>
+<rect x="527" y="453" width="460" height="18" rx="9" fill="#2b4659"/>
+<rect x="527" y="453" width="184" height="18" rx="9" fill="#ffc778"><animate attributeName="width" from="0" to="184" dur="1.3s" begin="0.39s" fill="freeze"/></rect>
+<text x="1042" y="467" class="count" text-anchor="end">2/5</text>
+<text x="527" y="496" class="sub">2 of 5 listed milestones marked complete</text>
+<text x="43" y="570" font-size="14" fill="#83a4b3">Manual checklist · not GitHub activity · not a skill score</text>
+</svg>

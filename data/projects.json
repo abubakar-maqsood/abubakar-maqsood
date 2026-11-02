@@ -1,0 +1,121 @@
+{
+  "notice": "The checkboxes are user-maintained milestones, not audited progress or skill percentages. Review them before publishing.",
+  "projects": [
+    {
+      "name": "AquaSense AI",
+      "phase": "Prototype / experimentation",
+      "accent": "#34d8c4",
+      "milestones": [
+        {
+          "title": "Define the data problem",
+          "done": true
+        },
+        {
+          "title": "Explore water-quality dataset",
+          "done": true
+        },
+        {
+          "title": "Create a runnable notebook prototype",
+          "done": true
+        },
+        {
+          "title": "Document cleaning and missing-data strategy",
+          "done": false
+        },
+        {
+          "title": "Evaluate model and uncertainty metrics",
+          "done": false
+        },
+        {
+          "title": "Publish reproducible demo and report",
+          "done": false
+        }
+      ]
+    },
+    {
+      "name": "TailorDesk",
+      "phase": "Desktop application in development",
+      "accent": "#79b6ff",
+      "milestones": [
+        {
+          "title": "Map customer and tailoring workflow",
+          "done": true
+        },
+        {
+          "title": "Draft order and measurement screens",
+          "done": true
+        },
+        {
+          "title": "Test persistence and history",
+          "done": false
+        },
+        {
+          "title": "Complete payment and balance workflow",
+          "done": false
+        },
+        {
+          "title": "Package and test Windows installer",
+          "done": false
+        }
+      ]
+    },
+    {
+      "name": "AbroadNavi",
+      "phase": "Design / web prototype",
+      "accent": "#d0a4ff",
+      "milestones": [
+        {
+          "title": "Define travel and scholarship sections",
+          "done": true
+        },
+        {
+          "title": "Create responsive page prototype",
+          "done": true
+        },
+        {
+          "title": "Choose accessible design palette and type",
+          "done": true
+        },
+        {
+          "title": "Finalize service search interactions",
+          "done": false
+        },
+        {
+          "title": "Validate scholarship update workflow",
+          "done": false
+        },
+        {
+          "title": "Complete content and deployment checks",
+          "done": false
+        }
+      ]
+    },
+    {
+      "name": "ShelfAudit",
+      "phase": "SaaS concept / early development",
+      "accent": "#ffc778",
+      "milestones": [
+        {
+          "title": "Define Shopify audit concept",
+          "done": true
+        },
+        {
+          "title": "Build product landing experience",
+          "done": true
+        },
+        {
+          "title": "Implement secure Shopify integration",
+          "done": false
+        },
+        {
+          "title": "Validate audit recommendations",
+          "done": false
+        },
+        {
+          "title": "Test onboarding and launch readiness",
+          "done": false
+        }
+      ]
+    }
+  ]
+}
