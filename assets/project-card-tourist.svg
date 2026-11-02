@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="160" viewBox="0 0 520 160" role="img" aria-label="Tourist System">
+<defs>
+<linearGradient id="bg" x1="0" x2="1"><stop stop-color="#0B1624"/><stop offset="1" stop-color="#102235"/></linearGradient>
+</defs>
+<rect width="520" height="160" rx="18" fill="url(#bg)" stroke="#27445D"/>
+<rect x="24" y="24" width="96" height="96" rx="18" fill="#1B2040" stroke="#8F9BFF" stroke-opacity=".35"/>
+<circle cx="72" cy="62" r="20" fill="#8F9BFF" fill-opacity=".18"/><path d="M72 48v28M58 62h28" stroke="#8F9BFF" stroke-width="4" stroke-linecap="round"/><path d="M72 82c12-10 18-18 18-27a18 18 0 10-36 0c0 9 6 17 18 27z" fill="none" stroke="#8F9BFF" stroke-width="3"/>
+<text x="146" y="62" font-size="28" font-weight="700" fill="#F3F8FF" font-family="Arial,Helvetica,sans-serif">Tourist System</text>
+<text x="146" y="92" font-size="17" fill="#B5C8DA" font-family="Arial,Helvetica,sans-serif">Travel-related interface concept</text>
+<rect x="146" y="108" width="128" height="28" rx="14" fill="#8F9BFF" fill-opacity=".18" stroke="#8F9BFF"/>
+<text x="210" y="127" text-anchor="middle" font-size="14" font-weight="700" fill="#8F9BFF" font-family="Arial,Helvetica,sans-serif">Public Repository</text>
+</svg>

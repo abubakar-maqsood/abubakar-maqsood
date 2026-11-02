@@ -7,9 +7,12 @@
   <a href="https://github.com/abubakar-maqsood?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Explore_Code-243B58?style=flat-square&logo=github&logoColor=white" alt="Repositories" /></a>
 </div>
 
-## About me
+<div align="center">
+  <br/>
+  <img src="assets/about-avatar-wave.gif" width="290" alt="Animated Bitmoji of Abubakar waving behind a laptop" />
+</div>
 
-<img align="right" src="assets/about-avatar-wave.gif" width="295" alt="Animated version of Abubakar's original Bitmoji: navy suit, laptop in front, and a gently waving hand" />
+## About me
 
 I'm **Muhammad Abubakar Maqsood**, a software developer focused on **frontend development, Shopify, and SEO**, with a growing interest in **applied AI and computer science research**. I enjoy building clean interfaces, solving real workflow problems, and exploring how software and AI can create useful outcomes.
 
@@ -34,8 +37,6 @@ BS Information Technology, **University of Agriculture Faisalabad**, Sub-Campus 
 **Open to**  
 Software engineering collaborations, open source, applied AI learning, and technical projects with practical impact.
 
-<br clear="right" />
-
 ## Tools and technologies
 
 ### Main focus
@@ -45,9 +46,11 @@ Software engineering collaborations, open source, applied AI learning, and techn
 **SEO and web quality:** Technical SEO · Responsive design · Performance and accessibility  
 **Developer workflow:** Git · GitHub · VS Code · Debugging
 
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind,git,github,vscode&perline=8" alt="Frontend and developer tools" />
-</p>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind,shopify,git,github&perline=8" alt="Frontend, Shopify and developer tools" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=vscode,react,ts,python,firebase,mysql,sqlite,electron&perline=8" alt="Currently learning and software exploration tools" />
+</div>
 
 ### Currently learning and exploring
 
@@ -58,9 +61,21 @@ The tools below are areas I'm learning or using in experiments; **they are not l
 | Python, Firebase, MySQL, SQLite, Electron | Machine learning concepts, model evaluation, data reliability |
 | React, TypeScript (project-based learning) | Prompt engineering, AI-assisted development, research exploration |
 
-## Selected projects
+## Completed projects
 
-These are prototypes and ongoing projects. Public source and demos are linked when available and ready to inspect.
+<div align="center">
+  <img src="assets/project-card-portfolio.svg" width="48%" alt="My Portfolio repository card" />
+  <img src="assets/project-card-netflix.svg" width="48%" alt="Netflix Clone repository card" />
+  <br/>
+  <img src="assets/project-card-ultraedit.svg" width="48%" alt="UltraEdit Clone repository card" />
+  <img src="assets/project-card-tourist.svg" width="48%" alt="Tourist System repository card" />
+</div>
+
+These are my visible public repositories and practice projects. I prefer to improve their documentation and code quality over adding unnecessary demo links.
+
+## Ongoing projects
+
+These are prototypes and ongoing projects that represent what I'm currently building and learning from.
 
 | Project | What I'm building | Stage |
 |:--|:--|:--|
@@ -93,18 +108,7 @@ Each bar **animates from zero to the completed milestone fraction**, based on ed
 
 ## GitHub activity
 
-See my [public repositories](https://github.com/abubakar-maqsood?tab=repositories) and [GitHub contributions](https://github.com/abubakar-maqsood?tab=overview). I value readable code, clear documentation and real demos over inflated statistics.
-
-<!-- Enable the optional contribution snake only after running the .github/workflows/snake.yml workflow successfully and verifying the 'output' branch.
-### Contribution trail
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abubakar-maqsood/abubakar-maqsood/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abubakar-maqsood/abubakar-maqsood/output/github-snake.svg" />
-    <img src="https://raw.githubusercontent.com/abubakar-maqsood/abubakar-maqsood/output/github-snake.svg" width="100%" alt="Animated contributions" />
-  </picture>
-</div>
--->
+See my [public repositories](https://github.com/abubakar-maqsood?tab=repositories) and [GitHub contributions](https://github.com/abubakar-maqsood?tab=overview). I value readable code, clear documentation and real progress over inflated statistics.
 
 ## Journey
 
