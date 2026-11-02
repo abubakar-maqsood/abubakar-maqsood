@@ -1,10 +1,1 @@
-FULL GITHUB PROFILE REPLACEMENT
-
-Repository: https://github.com/abubakar-maqsood/abubakar-maqsood
-
-Extract the ZIP. Copy its contents to the root of the EXISTING repository using GitHub Desktop, replace matching files, commit and push.
-
-Do not upload the ZIP file directly. Keep README.md at root.
-
-Top cover: latest approved signature + star, Vibe Coding, AI Research Interests, Applied Machine Learning.
-Animations: research headline typing/erasing and milestone bars growing. The cover and small centered avatar are static.
+Replace files in existing github.com/abubakar-maqsood/abubakar-maqsood. Extract ZIP, copy contents into cloned repo, Commit and Push. See SETUP.md.

@@ -1,15 +1,17 @@
 <!-- Profile repository: github.com/abubakar-maqsood/abubakar-maqsood -->
 <div align="center">
-  <img src="assets/top-cover-banner.webp" width="100%" alt="Muhammad Abubakar Maqsood banner with AI research interests, applied machine learning, and aspiring for MS and PhD abroad" />
+  <img src="assets/animated-cover.webp" width="100%" alt="Muhammad Abubakar Maqsood animated banner with pencil-written signature, typed name, Information Technology, and subtly moving fabric waves" />
   <br/><br/>
   <a href="https://www.linkedin.com/in/abu-ba-kar/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://ayhanpk.com/"><img src="https://img.shields.io/badge/Website-Ayhan_Co-856842?style=flat-square&logo=googlechrome&logoColor=white" alt="Website" /></a>
   <a href="https://github.com/abubakar-maqsood?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Public_Repositories-343638?style=flat-square&logo=github&logoColor=white" alt="Repositories" /></a>
   <br/><br/>
-  <img src="assets/center-bitmoji.webp" width="210" alt="Abubakar illustration with laptop" />
+  <img src="assets/center-bitmoji-wave.gif" width="210" alt="Transparent animated illustration of Abubakar waving behind a laptop" />
   <br/>
   <img src="assets/research-headlines-typing.gif" width="94%" alt="Rotating lines about AI research interests, graduate-study goals, model reliability and hackathon activity" />
 </div>
+
+## About Me
 
 I'm **Muhammad Abubakar Maqsood**, an Information Technology graduate developing my interests in **AI research, applied machine learning, model evaluation, and data reliability**. I'm preparing myself for **future Master's and PhD study opportunities abroad** through practical experiments, project work, and research-oriented learning.
 
