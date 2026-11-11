@@ -38,10 +38,8 @@ for i,count in enumerate(counts):
     bar.append(f'<rect x="{x}" y="{y}" width="18" height="{height}" rx="4" fill="{col}"/>')
 svg=f'''<svg xmlns="http://www.w3.org/2000/svg" width="940" height="184" viewBox="0 0 940 184">
 <text x="15" y="25" fill="#d4e6ec" font-size="16" font-weight="700" font-family="Arial,Helvetica,sans-serif" letter-spacing="1.5">GITHUB ACTIVITY</text>
-<text x="15" y="45" fill="#8398a3" font-size="12" font-family="Arial,Helvetica,sans-serif">Last 30 days of public events · Updated {today} UTC</text>
 <path d="M18 76H925 M18 106H925 M18 146H925" stroke="#30414d" stroke-opacity=".35" stroke-dasharray="3 9" />
 {''.join(bar)}
-<text x="15" y="170" fill="#8398a3" font-size="11" font-family="Arial,Helvetica,sans-serif">{sum(counts)} recent public events returned · Private contributions not included · API may omit older events</text>
 </svg>'''
 path=Path('assets/2026-refresh/activity-events.svg')
 path.write_text(svg,encoding='utf-8')

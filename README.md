@@ -65,6 +65,8 @@ I combine practical experience in **frontend development, Shopify, and technical
 ## Let's Connect
 
 <div align='center'>
+  <strong>PLAN · BUILD · LEARN · REPEAT</strong>
+  <br/><br/>
   <a href='https://abubakar-maqsood.github.io/'>Portfolio</a> ·
   <a href='https://www.linkedin.com/in/abu-ba-kar/'>LinkedIn</a> ·
   <a href='https://github.com/abubakar-maqsood/AgentBoundary-AI'>AgentBoundary AI</a>

@@ -20,3 +20,10 @@ This package updates your README and local animation assets. **Your original ban
 The included GitHub Action can update the public activity chart; the decorative green snake preview is not a factual contribution count. To run the Action, grant workflow write access to repository contents as needed.
 
 **External items:** The original `assets/animated-cover.webp` is kept from your existing GitHub repository; it is deliberately not included in this ZIP. External badge and streak images require their services to be available.
+
+
+## Latest three edits
+- Removed fine-print captions from the snake GIF and activity chart, including future generated SVGs.
+- Added PLAN · BUILD · LEARN · REPEAT above Let’s Connect links.
+- Preserved the original one-hand GIF artwork and frame motion, replacing only the dark background with transparency.
+- Kept original animated banner reference `assets/animated-cover.webp` unchanged; the original file must remain in your repository.
