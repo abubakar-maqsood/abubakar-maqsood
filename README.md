@@ -6,7 +6,7 @@
   <a href='https://www.linkedin.com/in/abu-ba-kar/'><img src='https://img.shields.io/badge/LINKEDIN-CONNECT-2C5C7C?style=flat-square' alt='LinkedIn' /></a>&nbsp;
   <a href='https://github.com/abubakar-maqsood?tab=repositories'><img src='https://img.shields.io/badge/GITHUB-REPOSITORIES-243B4B?style=flat-square' alt='Repositories' /></a>
   <br/><br/>
-  <img src='assets/2026-refresh/center-bitmoji-single-wave.gif' width="185" alt="Animated developer greeting with one waving hand, no extra hand on laptop" />
+  <img src='assets/2026-refresh/center-bitmoji-double-wave.gif' width="185" alt="Animated developer greeting with one waving hand, no extra hand on laptop" />
   <br/><br/>
   <img src='assets/2026-refresh/roles-typewriter.gif' width='87%' alt='Animated rotating professional titles' />
 </div>
