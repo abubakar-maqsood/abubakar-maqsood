@@ -1,12 +1,12 @@
 <!-- Self-contained polished GitHub profile package | November 2026 -->
 <div align='center'>
-  <img src='assets/2026-refresh/hero-header.svg' width='100%' alt='Abubakar GitHub profile banner' />
+  <img src="assets/animated-cover.webp" width="100%" alt="Original animated signature banner" />
   <br/><br/>
   <a href='https://abubakar-maqsood.github.io/'><img src='https://img.shields.io/badge/PORTFOLIO-EXPLORE-167A74?style=flat-square' alt='Portfolio' /></a>&nbsp;
   <a href='https://www.linkedin.com/in/abu-ba-kar/'><img src='https://img.shields.io/badge/LINKEDIN-CONNECT-2C5C7C?style=flat-square' alt='LinkedIn' /></a>&nbsp;
   <a href='https://github.com/abubakar-maqsood?tab=repositories'><img src='https://img.shields.io/badge/GITHUB-REPOSITORIES-243B4B?style=flat-square' alt='Repositories' /></a>
   <br/><br/>
-  <img src='assets/2026-refresh/center-bitmoji-wave.gif' width='245' alt='Animated developer waving with one hand behind laptop' />
+  <img src='assets/2026-refresh/center-bitmoji-single-wave.gif' width="185" alt="Animated developer greeting with one waving hand, no extra hand on laptop" />
   <br/><br/>
   <img src='assets/2026-refresh/roles-typewriter.gif' width='87%' alt='Animated rotating professional titles' />
 </div>
@@ -43,23 +43,14 @@ I combine practical experience in **frontend development, Shopify, and technical
 
 ## GitHub Activity
 
-<div align='center'>
-  <img src='assets/2026-refresh/activity-wave.svg' width='90%' alt='Animated activity divider' />
+<div align="center">
+  <img src="assets/2026-refresh/activity-wave.svg" width="90%" alt="Subtle animated teal line" />
   <br/>
-  <img src='https://streak-stats.demolab.com?user=abubakar-maqsood&theme=transparent&hide_border=true&ring=2C9B91&fire=D8B56A&currStreakLabel=83C6BC&sideLabels=83C6BC&dates=AABAC0&timezone=Asia%2FKarachi' alt='Current GitHub streak - third party provider' width='70%' />
-  <br/><br/>
-  <img src='assets/2026-refresh/activity-events.svg' width='96%' alt='Public GitHub activity chart; generated locally by a daily GitHub Action' />
-</div>
-
-### Contribution Snake
-
-<div align='center'>
-  <picture>
-    <source media='(prefers-color-scheme: dark)' srcset='assets/2026-refresh/github-snake-dark.svg' />
-    <img src='assets/2026-refresh/github-snake.svg' width='96%' alt='Contribution snake preview following a visible track; the GitHub workflow can replace this preview with real contribution data' />
-  </picture>
+  <img src="https://streak-stats.demolab.com?user=abubakar-maqsood&theme=transparent&hide_border=true&ring=2C9B91&fire=D8B56A&currStreakLabel=83C6BC&sideLabels=83C6BC&dates=AABAC0&timezone=Asia%2FKarachi" width="72%" alt="GitHub streak information from external provider" />
   <br/>
-  <sub>Cleaner preview included by default. If you run the workflow, the preview snake is replaced with the real generated contribution snake.</sub>
+  <img src="assets/2026-refresh/activity-events.svg" width="94%" alt="Public event activity chart" />
+  <br/>
+  <img src="assets/2026-refresh/snake-track-animated.gif" width="94%" alt="GitHub-green animated snake following a contribution-grid track" />
 </div>
 
 ## What I'm Learning
