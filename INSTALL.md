@@ -1,26 +1,35 @@
-# Install: fully patched GitHub profile (Nov 2026)
+# Abubakar GitHub Profile — Complete Animated Edition
 
-## What this corrects
+This package includes the updated GitHub README, all required custom SVG cards, the rotating titles, and the **fixed animated waving developer GIF**. The extra hand has been removed.
 
-1. **Broken activity graph:** Removed external `github-readme-activity-graph.vercel.app`. The README loads `assets/2026-refresh/activity-events.svg`, included in the ZIP. The workflow fills it with the last 30 days of **public GitHub events**. This is not a GitHub contribution count, and the API covers up to 100 recent public events.
-2. **Broken snake:** Both snake SVGs exist locally in the ZIP before any automation runs. They initially show a tasteful activation placeholder. The workflow replaces them with the real contribution snake on the main branch.
-3. **Duplicated projects:** Removed the project table, leaving four distinct illustrated cards with a concise status disclosure.
+## Installation
 
-## Upload steps (important)
+1. Open your GitHub profile repo: https://github.com/abubakar-maqsood/abubakar-maqsood
+2. Back up your existing README and any custom assets that you want to keep.
+3. Replace the root `README.md` with the file from this package.
+4. Upload the entire `assets/2026-refresh/` folder, including `center-bitmoji-wave.gif`.
+5. Upload `scripts/generate_activity.py` and `.github/workflows/profile-activity.yml` into their exact folders.
+6. Commit all changes. GitHub will display the fixed waving GIF immediately.
 
-1. Open https://github.com/abubakar-maqsood/abubakar-maqsood and back up your existing README.
-2. Upload / replace **README.md**, **assets/2026-refresh/**, **scripts/generate_activity.py**, and **.github/workflows/profile-activity.yml**. Preserve original `assets/animated-cover.webp`, `assets/center-bitmoji-wave.gif` and `assets/footer-line.svg`: the README still uses these original animations.
-3. **Remove the old `.github/workflows/snake.yml`** if it exists. The new workflow handles both images and avoids conflicting snake output mechanisms.
-4. Commit the files to your default branch (`main`). For hidden `.github` folder, using Git locally is simplest, or GitHub's Add file > Create new file with exact path `.github/workflows/profile-activity.yml`.
-5. In repository Settings > Actions > General > Workflow permissions, select **Read and write permissions** (if the setting is available), then Save. GitHub Actions must be enabled.
-6. On the repository's **Actions** tab, select **Update profile activity and snake**, click **Run workflow**, choose `main`, and run it.
-7. Once the action passes and commits generated SVGs to `main`, the activity diagram and snake will show live data and update daily. GitHub's image caching might delay the refreshed display.
+## Activity workflow
 
-### Important behavior
+The activity chart and snake are included as styled previews. To replace those previews with real public activity data and a generated contribution snake:
 
-- The initial graphics render without any workflow or third-party chart server. Their captions clearly indicate that synchronization hasn't happened yet.
-- The streak statistic still uses `streak-stats.demolab.com`, a third-party service. If it goes down, remove just that single README `<img>`; the local graphs and snake are unaffected.
-- GitHub cannot run arbitrary JavaScript in README files. These are GitHub-compatible SVG/GIF animations.
-- Real public events are **not** equivalent to total contributions. Private contributions and some older events may not show. Snake comes from actual contribution data.
-- The automation requires GitHub Actions permissions; uploading files by itself will not create real activity data.
-- None of your older repositories are deleted. Their feature cards are intentionally removed.
+- Go to **Actions > Update profile activity and snake > Run workflow**.
+- GitHub Actions must be enabled and have **Read and write permissions** for `GITHUB_TOKEN` if your repository settings restrict them.
+- The action updates the chart/snake images daily. The generated snake replaces the custom preview design.
+- The streak statistics image uses an external provider.
+
+The GIF itself does not require GitHub Actions. It is animated and plays from a local file in your profile repository.
+
+## Contents
+
+- `README.md`: full profile
+- `assets/2026-refresh/center-bitmoji-wave.gif`: edited and animated waving developer
+- `assets/2026-refresh/roles-typewriter.gif`: role animations
+- `assets/2026-refresh/hero-header.svg`: GitHub header
+- `assets/2026-refresh/card-*.svg`: recent project cards
+- `assets/2026-refresh/activity-wave.svg`, `activity-events.svg`: activity display
+- `assets/2026-refresh/github-snake.svg`, `github-snake-dark.svg`: snake previews
+- `.github/workflows/profile-activity.yml`: GitHub Actions workflow
+- `scripts/generate_activity.py`: public event chart updater

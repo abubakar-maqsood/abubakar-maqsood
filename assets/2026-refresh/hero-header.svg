@@ -1,0 +1,18 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='320' viewBox='0 0 1200 320'>
+  <defs>
+    <linearGradient id='bg' x1='0' x2='1' y1='0' y2='1'><stop offset='0%' stop-color='#07111d'/><stop offset='55%' stop-color='#0b1f31'/><stop offset='100%' stop-color='#10253a'/></linearGradient>
+    <linearGradient id='stroke' x1='0' x2='1'><stop offset='0%' stop-color='#2ad8c2'/><stop offset='100%' stop-color='#85f0db'/></linearGradient>
+    <filter id='glow' x='-50%' y='-50%' width='200%' height='200%'><feGaussianBlur stdDeviation='8' result='b'/><feMerge><feMergeNode in='b'/><feMergeNode in='SourceGraphic'/></feMerge></filter>
+  </defs>
+  <rect width='1200' height='320' rx='28' fill='url(#bg)'/>
+  <rect x='1.5' y='1.5' width='1197' height='317' rx='26.5' fill='none' stroke='#1e4960' stroke-width='2'/>
+  <path d='M40 85 C210 30 340 130 470 86 S720 42 880 78 1040 118 1160 72' stroke='#19b8b0' stroke-opacity='0.28' stroke-width='2' fill='none'/>
+  <path d='M36 248 C210 212 330 284 472 232 S730 198 892 230 1040 264 1164 224' stroke='#19b8b0' stroke-opacity='0.15' stroke-width='2' fill='none'/>
+  <circle cx='970' cy='103' r='88' fill='#12324a' fill-opacity='0.35'/><circle cx='970' cy='103' r='58' fill='none' stroke='#2cd1bf' stroke-opacity='0.35'/><circle cx='970' cy='103' r='36' fill='none' stroke='#7ce7d6' stroke-opacity='0.55'/>
+  <text x='72' y='112' fill='#dff7f2' font-family='Arial, Helvetica, sans-serif' font-size='18' letter-spacing='3'>GITHUB PROFILE</text>
+  <text x='72' y='176' fill='#ffffff' font-family='Arial, Helvetica, sans-serif' font-size='46' font-weight='700'>Muhammad Abubakar Maqsood</text>
+  <text x='72' y='216' fill='#9dd9d0' font-family='Arial, Helvetica, sans-serif' font-size='24'>Aspiring AI Researcher · Applied ML · Software Development</text>
+  <text x='72' y='260' fill='#9fb8c4' font-family='Arial, Helvetica, sans-serif' font-size='18'>Trustworthy AI · Agent Security · Livestock Activity Recognition · Frontend &amp; SEO</text>
+  <path d='M72 284 H465' stroke='url(#stroke)' stroke-width='4' stroke-linecap='round' filter='url(#glow)'/>
+  <g transform='translate(934 66)'><rect x='0' y='0' width='84' height='84' rx='22' fill='#0c2030' stroke='#2cd1bf' stroke-opacity='0.6'/><text x='42' y='52' text-anchor='middle' fill='#dff7f2' font-family='Arial, Helvetica, sans-serif' font-weight='700' font-size='30'>ABK</text></g>
+</svg>
