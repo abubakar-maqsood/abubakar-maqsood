@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="270" viewBox="0 0 760 270" role="img" aria-label="AGENTBOUNDARY AI project card">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#122336"/><stop offset="1" stop-color="#0d1927"/></linearGradient><radialGradient id="orb"><stop stop-color="#7baaf6" stop-opacity=".17"/><stop offset="1" stop-color="#7baaf6" stop-opacity="0"/></radialGradient></defs>
+<rect x="1" y="1" width="758" height="268" rx="21" fill="url(#bg)" stroke="#365364" stroke-width="2"/>
+<circle cx="666" cy="137" r="137" fill="url(#orb)"/><circle cx="666" cy="137" r="103" fill="none" stroke="#7baaf6" opacity=".22"/><circle cx="666" cy="137" r="78" fill="none" stroke="#7baaf6" opacity=".16"/>
+<rect x="33" y="26" width="51" height="30" rx="8" fill="#7baaf6" opacity=".18"/><text x="59" y="47" text-anchor="middle" font-size="15" font-weight="700" fill="#7baaf6" font-family="Arial,sans-serif">02</text>
+<text x="99" y="47" font-size="14" letter-spacing="1.7" fill="#7baaf6" font-family="Arial,sans-serif">AI SECURITY / AGENT RUNTIME</text>
+<text x="34" y="106" font-size="30" font-weight="800" fill="#f5f7fa" font-family="Arial,sans-serif">AGENTBOUNDARY AI</text>
+<text x="34" y="143" font-size="18" fill="#c5d9de" font-family="Arial,sans-serif">Policy checks · constrained execution</text>
+<path d="M34 176H726" stroke="#466270" opacity=".5"/><text x="34" y="209" font-size="15" fill="#afc9ce" font-family="Arial,sans-serif">Hackathon prototype; documented sandbox limitations</text>
+<circle cx="40" cy="240" r="4" fill="#7baaf6"/><text x="55" y="245" font-size="12" letter-spacing="1.3" fill="#7baaf6" font-weight="700" font-family="Arial,sans-serif">HACKATHON PROTOTYPE</text>
+<g transform="translate(573 45)" opacity=".83"><path d="M70 24 111 41 105 79 Q93 105 70 118 47 105 35 79 L29 41Z" fill="none" stroke="#7baaf6" stroke-width="3"/><path d="m51 73 14 14 26-32" fill="none" stroke="#7baaf6" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g></svg>

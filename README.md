@@ -1,88 +1,83 @@
-<!-- Profile refresh: 11 November 2026 | GitHub-safe HTML, GIF and SVG -->
+<!-- Animated GitHub profile | November 2026 | Local first to avoid broken image placeholders -->
 <div align="center">
-  <img src="assets/animated-cover.webp" width="100%" alt="Muhammad Abubakar Maqsood animated signature cover" />
+  <img src="assets/animated-cover.webp" width="100%" alt="Abubakar animated signature banner" />
   <br/><br/>
-  <a href="https://abubakar-maqsood.github.io/"><img src="https://img.shields.io/badge/PORTFOLIO-Explore-126F6D?style=flat-square" alt="Portfolio" /></a>&nbsp;
-  <a href="https://www.linkedin.com/in/abu-ba-kar/"><img src="https://img.shields.io/badge/LINKEDIN-Connect-305B80?style=flat-square" alt="LinkedIn" /></a>&nbsp;
-  <a href="https://github.com/abubakar-maqsood?tab=repositories"><img src="https://img.shields.io/badge/GITHUB-Projects-273D4B?style=flat-square" alt="Repositories" /></a>
+  <a href="https://abubakar-maqsood.github.io/"><img src="https://img.shields.io/badge/PORTFOLIO-EXPLORE-126F6D?style=flat-square" alt="Portfolio" /></a>&nbsp;
+  <a href="https://www.linkedin.com/in/abu-ba-kar/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-305B80?style=flat-square" alt="LinkedIn" /></a>&nbsp;
+  <a href="https://github.com/abubakar-maqsood?tab=repositories"><img src="https://img.shields.io/badge/GITHUB-REPOSITORIES-273D4B?style=flat-square" alt="Repositories" /></a>
   <br/><br/>
-  <img src="assets/center-bitmoji-wave.gif" width="150" alt="Waving developer animation" />
+  <img src="assets/center-bitmoji-wave.gif" width="142" alt="Animated waving developer" />
   <br/>
-  <img src="assets/2026-refresh/roles-typewriter.gif" width="88%" alt="Typewriter titles including aspiring AI researcher and applied ML learner" />
+  <img src="assets/2026-refresh/roles-typewriter.gif" width="87%" alt="Animated rotating professional titles" />
 </div>
 
 ## About Me
 
-I'm **Muhammad Abubakar Maqsood**, a **BS Information Technology graduate** (2025, **CGPA 3.53/4.00**) exploring **machine learning, trustworthy AI and applied computer science**. My aim is to build the experimental foundations for research-focused **Master's study** and, eventually, a **PhD**.
+I'm **Muhammad Abubakar Maqsood**, an **Information Technology graduate** (2025, **CGPA 3.53/4.00**) building toward research in **applied machine learning, trustworthy AI, and AI systems**.
 
-I bring hands-on experience in **frontend development, Shopify and technical SEO**. I am learning to connect practical software work with better evaluation, reproducible experiments and honest reporting of limitations.
+I combine practical experience in **frontend development, Shopify, and technical SEO** with ongoing study of Python, model evaluation, safer AI agents, and reproducible experimentation. I'm preparing for a research-focused **Master's** and, in the longer term, a **PhD**.
 
-**Exploring:** AI agent security · Reliable ML evaluation · Data transparency · Edge AI for livestock activity · Responsible AI
+**Areas of interest:** AI agent security · Model reliability · Data transparency · Livestock activity recognition · Applied machine learning
 
 ## Selected Work
 
 <div align="center">
-  <a href="https://abubakar-maqsood.github.io/#research"><img src="assets/2026-refresh/card-cattle.svg" width="49%" alt="Cattle activity recognition research exploration" /></a>
-  <a href="https://github.com/abubakar-maqsood/AgentBoundary-AI"><img src="assets/2026-refresh/card-agent.svg" width="49%" alt="AgentBoundary AI" /></a>
-  <a href="https://abubakar-maqsood.github.io/"><img src="assets/2026-refresh/card-portfolio.svg" width="49%" alt="New personal portfolio" /></a>
-  <a href="https://abubakar-maqsood.github.io/#projects"><img src="assets/2026-refresh/card-tailor.svg" width="49%" alt="TailorDesk" /></a>
+  <a href="https://abubakar-maqsood.github.io/#research"><img src="assets/2026-refresh/card-cow.svg" width="49%" alt="Cattle Activity AI — research exploration" /></a>
+  <a href="https://github.com/abubakar-maqsood/AgentBoundary-AI"><img src="assets/2026-refresh/card-shield.svg" width="49%" alt="AgentBoundary AI — hackathon prototype" /></a>
+  <br/>
+  <a href="https://abubakar-maqsood.github.io/"><img src="assets/2026-refresh/card-browser.svg" width="49%" alt="Live personal portfolio" /></a>
+  <a href="https://abubakar-maqsood.github.io/#projects"><img src="assets/2026-refresh/card-scissors.svg" width="49%" alt="TailorDesk — desktop application" /></a>
 </div>
 
-| Project | What it demonstrates | Current stage |
-|:--|:--|:--|
-| **Cattle Activity AI** | Exploring recognition of cattle behaviors from wearable motion signals, with future interest in lightweight edge deployment | **Research exploration / planning**, not a validated model or completed paper |
-| **[AgentBoundary AI](https://github.com/abubakar-maqsood/AgentBoundary-AI)** | Agent permission boundaries and safer execution workflows, developed with *The Explorers* | **Hackathon submission / prototype** |
-| **[My New Portfolio](https://abubakar-maqsood.github.io/)** | Public profile featuring research interests, selected projects and practical experience | **Live** |
-| **TailorDesk** | Offline tailor-shop management, customer measurement history, order tracking and balances | **Desktop application project**; public source not linked |
+<sub>**Project status:** Cattle activity recognition is a research exploration, not a published model. AgentBoundary AI is a hackathon prototype; production-grade security and live Vultr deployment are not claimed. TailorDesk source is not linked publicly.</sub>
 
-*Earlier practice clones and older storefront projects are intentionally excluded from this featured list. This does not delete their repositories.*
-
-## Tools I Work With
+## Tools & Technologies
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,html,css,js,bootstrap,tailwind&perline=6" width="335" alt="Python, HTML, CSS, JavaScript, Bootstrap, Tailwind" />
+  <img src="https://skillicons.dev/icons?i=python,html,css,js,bootstrap,tailwind&perline=6" width="335" alt="Python HTML CSS JavaScript Bootstrap Tailwind" />
   <br/>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,react,ts,firebase&perline=6" width="335" alt="Git, GitHub, VS Code, React, TypeScript, Firebase" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,react,ts,firebase&perline=6" width="335" alt="Git GitHub VS Code React TypeScript Firebase" />
+  <br/>
+  <sub>Practical work: frontend, Shopify/Liquid, SEO · Developing skills: Python, applied ML, agent workflows, TypeScript, desktop applications</sub>
 </div>
-
-<div align="center"><sub>Practical work: frontend, Shopify/Liquid, SEO · Growing skills: Python, ML experiments, agent workflows, TypeScript and desktop applications</sub></div>
 
 ## GitHub Activity
 
 <div align="center">
-  <img src="assets/2026-refresh/activity-wave.svg" width="88%" alt="Animated teal activity divider" />
+  <img src="assets/2026-refresh/activity-wave.svg" width="90%" alt="Animated activity divider" />
   <br/>
-  <img src="https://streak-stats.demolab.com?user=abubakar-maqsood&theme=transparent&hide_border=true&ring=2C9B91&fire=D8B56A&currStreakLabel=83C6BC&sideLabels=83C6BC&dates=AABAC0&timezone=Asia%2FKarachi" alt="Live GitHub contribution streak" width="64%" />
-  <br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=abubakar-maqsood&bg_color=0F1C2A&color=C0D5D8&line=36A39A&point=DCC58D&area=true&hide_border=true&radius=8" width="96%" alt="Live GitHub contributions activity graph" />
+  <img src="https://streak-stats.demolab.com?user=abubakar-maqsood&theme=transparent&hide_border=true&ring=2C9B91&fire=D8B56A&currStreakLabel=83C6BC&sideLabels=83C6BC&dates=AABAC0&timezone=Asia%2FKarachi" alt="Current GitHub streak — third party provider" width="70%" />
+  <br/><br/>
+  <img src="assets/2026-refresh/activity-events.svg" width="96%" alt="Public GitHub events from the last 30 days; generated locally by a daily GitHub Action" />
 </div>
 
 ### Contribution Snake
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abubakar-maqsood/abubakar-maqsood/output/github-snake-dark.svg" />
-    <img alt="Animated contribution snake, generated by a scheduled GitHub Action" src="https://raw.githubusercontent.com/abubakar-maqsood/abubakar-maqsood/output/github-snake.svg" width="95%" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/2026-refresh/github-snake-dark.svg" />
+    <img src="assets/2026-refresh/github-snake.svg" width="96%" alt="Contribution snake: a local animated placeholder until the GitHub workflow publishes real contribution data" />
   </picture>
-  <br/><sub>The snake appears after the included GitHub Action runs successfully for the first time.</sub>
+  <br/>
+  <sub>Images are included in this repository. Run **Actions → Update profile activity and snake → Run workflow** once to replace the previews with real GitHub data. Public event activity is not the same as total GitHub contributions.</sub>
 </div>
 
 ## What I'm Learning
 
-**Trustworthy AI:** Evidence, model limitations, hallucinations and responsible use of tools.  
-**Applied ML:** Preprocessing, validation, error analysis and reproducible notebooks.  
-**Edge AI:** Exploring methods for efficient cattle-activity classification from sensor signals.  
-**Software:** User-focused workflows and maintainable frontend systems.
+**Trustworthy AI:** Reliable outputs, clear model limitations, verification and safer use of tools.  
+**Applied ML:** Data cleaning, baselines, evaluation and error analysis.  
+**Edge AI:** Exploring efficient cattle-behavior recognition from wearable motion data.  
+**Software:** Clear workflows, offline applications and maintainable interfaces.
 
-**Recent milestone:** Participated in the Vultr Agent Rush Hackathon with *The Explorers*, submitting AgentBoundary AI. Completed Coursera prompt-engineering coursework.
+**Recent milestone:** Vultr Agent Rush Hackathon participation with **The Explorers**, submitting AgentBoundary AI; Coursera prompt engineering coursework.
 
-## Connect
+## Let's Connect
 
 <div align="center">
   <a href="https://abubakar-maqsood.github.io/">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/abu-ba-kar/">LinkedIn</a> ·
   <a href="https://github.com/abubakar-maqsood/AgentBoundary-AI">AgentBoundary AI</a>
   <br/><br/>
-  <img src="assets/footer-line.svg" width="88%" alt="Closing animated line" />
-  <br/><sub>Building foundations in AI research, one documented experiment at a time.</sub>
+  <img src="assets/footer-line.svg" width="88%" alt="Animated footer line" />
+  <br/><sub>Learning to build AI systems whose results can be explained, tested and trusted.</sub>
 </div>

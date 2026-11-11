@@ -1,14 +1,26 @@
-# Install the refreshed GitHub profile
+# Install: fully patched GitHub profile (Nov 2026)
 
-1. Back up your existing repository `abubakar-maqsood/abubakar-maqsood`.
-2. Replace `README.md` with the new file.
-3. Upload the whole `assets/2026-refresh/` directory while keeping your current `assets/` folder intact. The README intentionally references your existing `assets/animated-cover.webp`, `assets/center-bitmoji-wave.gif` and `assets/footer-line.svg`.
-4. Upload `.github/workflows/snake.yml` into the same location in your profile repository. GitHub web upload sometimes hides dot-folders; using Git locally or creating `.github/workflows/snake.yml` in the website editor is easiest.
-5. Commit all changes to the default branch.
-6. In repository Settings > Actions > General > Workflow permissions, allow read and write permissions (if currently restricted). Run **Actions > Generate contribution snake > Run workflow** once. The `output` branch will be created and the snake will show on the README. This action also runs daily.
-7. Streak and contribution graph are hosted by third-party services and may occasionally be unavailable; they display real GitHub activity rather than static or invented numbers.
-8. GitHub profile README images support animated GIF/SVG; they do not support arbitrary page JavaScript or hover effects.
-9. No old repositories have been deleted. The featured project list has simply been replaced. Cattle project is accurately labeled research exploration.
-10. Profile **bio** is separate from README. Suggested bio: `Aspiring AI Researcher | Machine Learning & Applied AI | Frontend, Shopify & SEO`.
+## What this corrects
 
-Note: There is no claim here of a published cattle-activity model, peer-reviewed research, or completed edge device. You can update the stage when you have experimental evidence.
+1. **Broken activity graph:** Removed external `github-readme-activity-graph.vercel.app`. The README loads `assets/2026-refresh/activity-events.svg`, included in the ZIP. The workflow fills it with the last 30 days of **public GitHub events**. This is not a GitHub contribution count, and the API covers up to 100 recent public events.
+2. **Broken snake:** Both snake SVGs exist locally in the ZIP before any automation runs. They initially show a tasteful activation placeholder. The workflow replaces them with the real contribution snake on the main branch.
+3. **Duplicated projects:** Removed the project table, leaving four distinct illustrated cards with a concise status disclosure.
+
+## Upload steps (important)
+
+1. Open https://github.com/abubakar-maqsood/abubakar-maqsood and back up your existing README.
+2. Upload / replace **README.md**, **assets/2026-refresh/**, **scripts/generate_activity.py**, and **.github/workflows/profile-activity.yml**. Preserve original `assets/animated-cover.webp`, `assets/center-bitmoji-wave.gif` and `assets/footer-line.svg`: the README still uses these original animations.
+3. **Remove the old `.github/workflows/snake.yml`** if it exists. The new workflow handles both images and avoids conflicting snake output mechanisms.
+4. Commit the files to your default branch (`main`). For hidden `.github` folder, using Git locally is simplest, or GitHub's Add file > Create new file with exact path `.github/workflows/profile-activity.yml`.
+5. In repository Settings > Actions > General > Workflow permissions, select **Read and write permissions** (if the setting is available), then Save. GitHub Actions must be enabled.
+6. On the repository's **Actions** tab, select **Update profile activity and snake**, click **Run workflow**, choose `main`, and run it.
+7. Once the action passes and commits generated SVGs to `main`, the activity diagram and snake will show live data and update daily. GitHub's image caching might delay the refreshed display.
+
+### Important behavior
+
+- The initial graphics render without any workflow or third-party chart server. Their captions clearly indicate that synchronization hasn't happened yet.
+- The streak statistic still uses `streak-stats.demolab.com`, a third-party service. If it goes down, remove just that single README `<img>`; the local graphs and snake are unaffected.
+- GitHub cannot run arbitrary JavaScript in README files. These are GitHub-compatible SVG/GIF animations.
+- Real public events are **not** equivalent to total contributions. Private contributions and some older events may not show. Snake comes from actual contribution data.
+- The automation requires GitHub Actions permissions; uploading files by itself will not create real activity data.
+- None of your older repositories are deleted. Their feature cards are intentionally removed.
