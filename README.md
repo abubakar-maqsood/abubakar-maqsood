@@ -1,102 +1,88 @@
-<!-- Profile repository: github.com/abubakar-maqsood/abubakar-maqsood -->
+<!-- Profile refresh: 11 November 2026 | GitHub-safe HTML, GIF and SVG -->
 <div align="center">
-  <img src="assets/animated-cover.webp" width="100%" alt="Muhammad Abubakar Maqsood animated banner with pencil-written signature, typed name, Information Technology, and subtly moving fabric waves" />
+  <img src="assets/animated-cover.webp" width="100%" alt="Muhammad Abubakar Maqsood animated signature cover" />
   <br/><br/>
-  <a href="https://www.linkedin.com/in/abu-ba-kar/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://ayhanpk.com/"><img src="https://img.shields.io/badge/Website-Ayhan_Co-856842?style=flat-square&logo=googlechrome&logoColor=white" alt="Website" /></a>
-  <a href="https://github.com/abubakar-maqsood?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Public_Repositories-343638?style=flat-square&logo=github&logoColor=white" alt="Repositories" /></a>
+  <a href="https://abubakar-maqsood.github.io/"><img src="https://img.shields.io/badge/PORTFOLIO-Explore-126F6D?style=flat-square" alt="Portfolio" /></a>&nbsp;
+  <a href="https://www.linkedin.com/in/abu-ba-kar/"><img src="https://img.shields.io/badge/LINKEDIN-Connect-305B80?style=flat-square" alt="LinkedIn" /></a>&nbsp;
+  <a href="https://github.com/abubakar-maqsood?tab=repositories"><img src="https://img.shields.io/badge/GITHUB-Projects-273D4B?style=flat-square" alt="Repositories" /></a>
   <br/><br/>
-  <img src="assets/center-bitmoji-wave.gif" width="210" alt="Transparent animated illustration of Abubakar waving behind a laptop" />
+  <img src="assets/center-bitmoji-wave.gif" width="150" alt="Waving developer animation" />
   <br/>
-  <img src="assets/research-headlines-typing.gif" width="94%" alt="Rotating lines about AI research interests, graduate-study goals, model reliability and hackathon activity" />
+  <img src="assets/2026-refresh/roles-typewriter.gif" width="88%" alt="Typewriter titles including aspiring AI researcher and applied ML learner" />
 </div>
 
 ## About Me
 
-I'm **Muhammad Abubakar Maqsood**, an Information Technology graduate developing my interests in **AI research, applied machine learning, model evaluation, and data reliability**. I'm preparing myself for **future Master's and PhD study opportunities abroad** through practical experiments, project work, and research-oriented learning.
+I'm **Muhammad Abubakar Maqsood**, a **BS Information Technology graduate** (2025, **CGPA 3.53/4.00**) exploring **machine learning, trustworthy AI and applied computer science**. My aim is to build the experimental foundations for research-focused **Master's study** and, eventually, a **PhD**.
 
-My professional background is in **software development, frontend engineering, Shopify, and SEO**. I want to connect practical software skills with clear, honest, and reproducible AI work.
+I bring hands-on experience in **frontend development, Shopify and technical SEO**. I am learning to connect practical software work with better evaluation, reproducible experiments and honest reporting of limitations.
 
-**Research interests:** Trustworthy AI, applied machine learning, model evaluation, uncertainty, and responsible AI systems.  
-**Current direction:** Learning through experiments, prototypes, hackathons, and structured self-study.  
-**Academic background:** BS Information Technology, University of Agriculture Faisalabad, Sub-Campus Burewala (2025), CGPA **3.53/4.00**.  
-**Professional experience:** Frontend and e-commerce work, including Fusion Funky.
+**Exploring:** AI agent security · Reliable ML evaluation · Data transparency · Edge AI for livestock activity · Responsible AI
 
-## Research interests and experiments
-
-| Area | Current focus |
-|:--|:--|
-| **Trustworthy AI** | Understanding when AI outputs should be trusted, verified, or questioned. |
-| **Applied ML** | Practicing experiments with imperfect datasets and reproducible workflows. |
-| **Model evaluation** | Learning how to evaluate errors, missing values, limitations, and reliability. |
-| **AI agents** | Exploring accountability, consent, verification, and safer AI-assisted workflows. |
-
-### AquaSense AI — Applied ML exploration
-
-A practical learning project using water-quality data to explore preprocessing, missing-value analysis, basic prediction, and model evaluation. **AquaSense AI is a learning prototype**, not a published research paper or a deployed scientific system.
-
-## Tools and technologies
+## Selected Work
 
 <div align="center">
-  <b>Development foundation and current exploration</b>
-  <br/><br/>
-  <img src="https://skillicons.dev/icons?i=python,html,css,js,bootstrap,tailwind&perline=6" width="340" alt="Python, HTML, CSS, JavaScript, Bootstrap, Tailwind" />
-  <br/>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,react,ts,firebase&perline=6" width="340" alt="Git, GitHub, VS Code, React, TypeScript, Firebase" />
+  <a href="https://abubakar-maqsood.github.io/#research"><img src="assets/2026-refresh/card-cattle.svg" width="49%" alt="Cattle activity recognition research exploration" /></a>
+  <a href="https://github.com/abubakar-maqsood/AgentBoundary-AI"><img src="assets/2026-refresh/card-agent.svg" width="49%" alt="AgentBoundary AI" /></a>
+  <a href="https://abubakar-maqsood.github.io/"><img src="assets/2026-refresh/card-portfolio.svg" width="49%" alt="New personal portfolio" /></a>
+  <a href="https://abubakar-maqsood.github.io/#projects"><img src="assets/2026-refresh/card-tailor.svg" width="49%" alt="TailorDesk" /></a>
 </div>
 
-**Professional focus:** Frontend development, Shopify, Liquid, responsive UI, technical SEO and web quality.  
-**Currently learning or exploring:** Python, applied ML, React, TypeScript, Firebase, MySQL, SQLite, Electron, and prompt engineering. These are learning interests, not claims of professional specialization.
-
-## Completed projects and public practice
-
-The following public repositories demonstrate web development and frontend learning. Practice clones are labeled accordingly and are **not presented as original research**.
-
-<div align="center">
-  <a href="https://github.com/abubakar-maqsood/My-Portfolio"><img src="assets/project-card-portfolio.svg" width="48%" alt="My Portfolio repository" /></a>
-  <a href="https://github.com/abubakar-maqsood/Netflix-clone"><img src="assets/project-card-netflix.svg" width="48%" alt="Netflix Clone practice project" /></a>
-  <br/>
-  <a href="https://github.com/abubakar-maqsood/UltraEdit-Clone"><img src="assets/project-card-ultraedit.svg" width="48%" alt="UltraEdit Clone practice project" /></a>
-</div>
-
-## Current software projects
-
-| Project | Purpose | Stage |
+| Project | What it demonstrates | Current stage |
 |:--|:--|:--|
-| **AquaSense AI** | Water-quality data preparation and ML evaluation experiments. | Notebook prototype |
-| **TailorDesk** | Tailoring orders, measurements, payment balances and delivery workflow. | In development |
-| **AbroadNavi** | Travel services and scholarship discovery. | Web prototype |
-| **ShelfAudit** | Shopify store audit insights and improvement workflows. | Early-stage concept |
+| **Cattle Activity AI** | Exploring recognition of cattle behaviors from wearable motion signals, with future interest in lightweight edge deployment | **Research exploration / planning**, not a validated model or completed paper |
+| **[AgentBoundary AI](https://github.com/abubakar-maqsood/AgentBoundary-AI)** | Agent permission boundaries and safer execution workflows, developed with *The Explorers* | **Hackathon submission / prototype** |
+| **[My New Portfolio](https://abubakar-maqsood.github.io/)** | Public profile featuring research interests, selected projects and practical experience | **Live** |
+| **TailorDesk** | Offline tailor-shop management, customer measurement history, order tracking and balances | **Desktop application project**; public source not linked |
 
-### Animated project milestones
+*Earlier practice clones and older storefront projects are intentionally excluded from this featured list. This does not delete their repositories.*
+
+## Tools I Work With
 
 <div align="center">
-  <img src="assets/project-dashboard-grow.gif" width="100%" alt="Milestone progress bars animate from zero to their manually checked completion positions" />
+  <img src="https://skillicons.dev/icons?i=python,html,css,js,bootstrap,tailwind&perline=6" width="335" alt="Python, HTML, CSS, JavaScript, Bootstrap, Tailwind" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,react,ts,firebase&perline=6" width="335" alt="Git, GitHub, VS Code, React, TypeScript, Firebase" />
 </div>
 
-<details>
-<summary><b>How the project tracker works</b></summary>
+<div align="center"><sub>Practical work: frontend, Shopify/Liquid, SEO · Growing skills: Python, ML experiments, agent workflows, TypeScript and desktop applications</sub></div>
 
-The dashboard uses the manually maintained checklist in [`data/projects.json`](data/projects.json). The animation shows **listed milestones checked**, not an automated measurement of project completion, coding skill, or GitHub activity. Review starter milestones before using the numbers publicly.
-</details>
-
-## Graduate-study direction
-
-My current goal is to strengthen my foundation in AI and software engineering through reproducible experimentation, honest documentation, and project-based learning. I am **looking forward to funded Master's opportunities and, in the long term, PhD study abroad**. My interests are still developing; I do not claim formal publications or established researcher status.
-
-## Current activities
-
-- Building and documenting software and applied ML prototypes.
-- Participating in hackathons and technical competitions.
-- Learning to evaluate AI systems with clearer evidence and limitations.
-- Improving research and technical communication.
-
-## GitHub and collaboration
-
-View my [public repositories](https://github.com/abubakar-maqsood?tab=repositories) and [contribution activity](https://github.com/abubakar-maqsood?tab=overview). I value documented methodology, readable code, transparent limitations and useful collaboration.
+## GitHub Activity
 
 <div align="center">
-  <img src="assets/footer-line.svg" width="90%" alt="Build, Experiment, Learn, Improve" />
+  <img src="assets/2026-refresh/activity-wave.svg" width="88%" alt="Animated teal activity divider" />
   <br/>
-  <sub>Building foundations in AI research, applied machine learning and software engineering.</sub>
+  <img src="https://streak-stats.demolab.com?user=abubakar-maqsood&theme=transparent&hide_border=true&ring=2C9B91&fire=D8B56A&currStreakLabel=83C6BC&sideLabels=83C6BC&dates=AABAC0&timezone=Asia%2FKarachi" alt="Live GitHub contribution streak" width="64%" />
+  <br/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=abubakar-maqsood&bg_color=0F1C2A&color=C0D5D8&line=36A39A&point=DCC58D&area=true&hide_border=true&radius=8" width="96%" alt="Live GitHub contributions activity graph" />
+</div>
+
+### Contribution Snake
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abubakar-maqsood/abubakar-maqsood/output/github-snake-dark.svg" />
+    <img alt="Animated contribution snake, generated by a scheduled GitHub Action" src="https://raw.githubusercontent.com/abubakar-maqsood/abubakar-maqsood/output/github-snake.svg" width="95%" />
+  </picture>
+  <br/><sub>The snake appears after the included GitHub Action runs successfully for the first time.</sub>
+</div>
+
+## What I'm Learning
+
+**Trustworthy AI:** Evidence, model limitations, hallucinations and responsible use of tools.  
+**Applied ML:** Preprocessing, validation, error analysis and reproducible notebooks.  
+**Edge AI:** Exploring methods for efficient cattle-activity classification from sensor signals.  
+**Software:** User-focused workflows and maintainable frontend systems.
+
+**Recent milestone:** Participated in the Vultr Agent Rush Hackathon with *The Explorers*, submitting AgentBoundary AI. Completed Coursera prompt-engineering coursework.
+
+## Connect
+
+<div align="center">
+  <a href="https://abubakar-maqsood.github.io/">Portfolio</a> ·
+  <a href="https://www.linkedin.com/in/abu-ba-kar/">LinkedIn</a> ·
+  <a href="https://github.com/abubakar-maqsood/AgentBoundary-AI">AgentBoundary AI</a>
+  <br/><br/>
+  <img src="assets/footer-line.svg" width="88%" alt="Closing animated line" />
+  <br/><sub>Building foundations in AI research, one documented experiment at a time.</sub>
 </div>
